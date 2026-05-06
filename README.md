@@ -136,7 +136,7 @@ sudo docker exec -it jenkins cat /var/jenkins_home/secrets/initialAdminPassword
 
 ## 一、安装插件
 
-![jenkins1](F:\picture\jenkins1.png)
+![jenkins1](https://cdn.jsdelivr.net/gh/GLTechnologies/DevOps/jenkins/jenkins1.png)
 
 安装插件：Maven Integration、Stage View、Gitlab
 
@@ -144,11 +144,11 @@ sudo docker exec -it jenkins cat /var/jenkins_home/secrets/initialAdminPassword
 
 ### 1、安装Maven
 
-![jenkins2](F:\picture\jenkins2.png)
+![jenkins2](https://cdn.jsdelivr.net/gh/GLTechnologies/DevOps/jenkins/jenkins2.png)
 
 ## 三、凭证管理
 
-![jenkins3](F:\picture\jenkins3.png)
+![jenkins3](https://cdn.jsdelivr.net/gh/GLTechnologies/DevOps/jenkins/jenkins3.png)
 
 Harbor账号密码
 
@@ -156,9 +156,9 @@ ID填写：harbor-cred
 
 ## 四、新建流水线-后端
 
-![jenkins4](F:\picture\jenkins4.png)
+![jenkins4](https://cdn.jsdelivr.net/gh/GLTechnologies/DevOps/jenkins/jenkins4.png)
 
-![jenkins5](F:\picture\jenkins5.png)
+![jenkins5](https://cdn.jsdelivr.net/gh/GLTechnologies/DevOps/jenkins/jenkins5.png)
 
 脚本路径：ci/Jenkinsfile-backend
 
