@@ -5,7 +5,8 @@ Admin→Settings→Network
 ![image-20251229180857517](https://cdn.jsdelivr.net/gh/GLTechnologies/DevOps/gitlab/gitlab1.png)
 
 ## 二、创建项目 & 添加 webhook
-
+URL在Jenkins项目中Configure→Triggers→Build when a change is pushed to GitLab. GitLab webhook URL
+Secret token生成
 ![gitlab2](https://cdn.jsdelivr.net/gh/GLTechnologies/DevOps/gitlab/gitlab2.png)
 
 ![gitlab3](https://cdn.jsdelivr.net/gh/GLTechnologies/DevOps/gitlab/gitlab3.png)
