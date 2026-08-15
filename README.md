@@ -1,7 +1,7 @@
 # GitLab
 
 ## 一、
-
+Admin→Settings→Network
 ![image-20251229180857517](https://cdn.jsdelivr.net/gh/GLTechnologies/DevOps/gitlab/gitlab1.png)
 
 ## 二、创建项目 & 添加 webhook
