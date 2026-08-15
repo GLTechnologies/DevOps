@@ -1,18 +1,5 @@
 # GitLab
 
-## 生成密码
-
-```bash
-cat /etc/netplan/50-cloud-init.yaml
-sudo ip route del default via 192.168.124.1 && sudo ip route add default via 192.168.124.100 dev ens18
-```
-
-
-
-```bash
-sudo docker exec -it gitlab cat /etc/gitlab/initial_root_password
-```
-
 ## 一、
 
 ![image-20251229180857517](https://cdn.jsdelivr.net/gh/GLTechnologies/DevOps/gitlab/gitlab1.png)
