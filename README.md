@@ -140,7 +140,19 @@ Harbor账号密码
 
 ID填写：harbor-cred
 
-## 四、新建流水线-后端
+## 四、Harbor地址
+```bash
+nano /etc/docker/daemon.json
+
+{
+  "insecure-registries":["192.168.100.110"]
+}
+
+systemctl daemon-reload
+systemctl restart docker
+```
+
+## 五、新建流水线-后端
 
 ![jenkins4](https://cdn.jsdelivr.net/gh/GLTechnologies/DevOps/jenkins/jenkins4.png)
 
@@ -148,4 +160,4 @@ ID填写：harbor-cred
 
 脚本路径：ci/Jenkinsfile-backend
 
-## 五、新建流水线-前端
+## 六、新建流水线-前端
