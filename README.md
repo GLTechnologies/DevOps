@@ -118,7 +118,7 @@ pipeline {
 
 ![jenkins1](https://cdn.jsdelivr.net/gh/GLTechnologies/DevOps/jenkins/jenkins1.png)
 
-安装插件：Maven Integration、Stage View、Gitlab
+安装插件：Pipeline Maven Integration Plugin、Stage View、Gitlab
 
 ## 二、全局工具配置
 
