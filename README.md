@@ -114,12 +114,6 @@ pipeline {
 
 # Jenkins
 
-## 生成密码
-
-```bash
-sudo docker exec -it jenkins cat /var/jenkins_home/secrets/initialAdminPassword
-```
-
 ## 一、安装插件
 
 ![jenkins1](https://cdn.jsdelivr.net/gh/GLTechnologies/DevOps/jenkins/jenkins1.png)
